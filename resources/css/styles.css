@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  background-color: black;
+  padding: 9.5px 10px;
+  top: 0;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  float: left;
+}
+
+/* Navigation */
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  float: right;
+  line-height: 50px;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: seashell;
+}
+
+nav a:hover {
+  color: silver;
+}
+
+/* Mission Section */
+
+.background-image {
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 30px auto;
+  display: flex;
+}
+
+.mission-text {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.mission-text h2 {
+  padding-bottom: 20px;
+}
+
+/* Tea Section */
+
+.tea-container {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.tea-container img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-container figcaption {
+  padding: 10px 0 20px 0;
+}
+
+#featured-tea h2,
+h4 {
+  padding-bottom: 20px;
+}
+
+#featured-tea {
+  padding: 40px;
+}
+
+/* Locations */
+
+.background-location {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  margin: 30px auto;
+  padding: 30px 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-title {
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+.location-card {
+  width: 300px;
+  height: 250px;
+  background-color: black;
+  display: inline-flex;
+  padding: 20px;
+  margin-right: 40px;
+  justify-content: center;
+  align-content: space-around;
+  line-height: 1.9;
+}
+
+.location-card:last-child {
+  margin-right: 0;
+}
+
+.location-card span {
+  font-weight: bold;
+}
+
+.location-card p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/*  Footer */
+
+footer {
+  height: 200px;
+  line-height: 2.5;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
